@@ -1,0 +1,12 @@
+# Ignore Robot Framework output files
+output.xml
+report.html
+log.html
+
+# Ignore screenshots (common extensions)
+*.png
+*.jpg
+*.jpeg
+
+# JetBrains IDEs
+.idea/
