@@ -7,6 +7,9 @@ Variables    locators.py
 
 *** Variables ***
 ${error_message_login}    //div[@class='alert alert-danger col-md-12']
+${user_name}=    rahulshettyacademy
+${invalid_password}=   zaq12wsx
+${url}=     https://rahulshettyacademy.com/loginpagePractise/
 
 *** Keywords ***
 Fill the login form
