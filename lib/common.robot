@@ -8,6 +8,10 @@ Suite setup task
     Set Suite Variable    ${browser}
 #    ${local_tmp_path}=    Join Path    %{workspace}    tmp
 #    Set Suite Variable   ${local_tmp_path}
+    ${user_name}=    Set Variable    rahulshettyacademy
+    Set Suite Variable  ${user_name}
+    ${invalid_password}=    Set Variable    zaq12wsx
+    Set Suite Variable  ${invalid_password}
 
 Suite teardown task
     Close Browser

@@ -10,8 +10,8 @@ ${error_message_login}    //div[@class='alert alert-danger col-md-12']
 
 *** Keywords ***
 Fill the login form
-    Input Text        ${user_name_dialog_box}    rahulshettyacademy
-    Input Password    ${password_dialog_box}    zaq12wsx
+    Input Text        ${user_name_dialog_box}    ${user_name}
+    Input Password    ${password_dialog_box}    ${invalid_password}
     Click Button    ${signin_button}
 
 Verify error message is correct
