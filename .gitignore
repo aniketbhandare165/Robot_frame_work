@@ -10,3 +10,6 @@ log.html
 
 # JetBrains IDEs
 .idea/
+
+#lib
+__pycache__/
